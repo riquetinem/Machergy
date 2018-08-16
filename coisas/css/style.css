@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,
+body {
+	font-family:'Roboto', 'Arial', 'Helvetica';
+    height: 100%;
+    background-color: #f9f9f9;
+    color: #010101;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #CCC;
+}
+
+.pblack{
+    color: #ffffff;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+.navbar-inverse{
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar:hover{
+    color: #F9F9F9;
+}
+
+.input-group-addon{
+    text-shadow: none;
+}
+
+#home{
+    background-image: url(../img/6123showing.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#jair{
+    background-image: url(../img/jair.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 30%;
+    background-attachment: fixed;
+    transition: 0.5s;
+}
+
+#tipo-da-energia{
+	background-image: url(../img/radioatividade.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+	color: #c8ff63;
+}
+
+header p{
+	color: #fafffd;
+    font-size: 20px;
+}
+
+#result, #finished, #energiaNuclear, #energiaResumo{
+    text-shadow: 1px 0px #000;
+    -webkit-animation: myKeyFrame 3s; 
+    -moz-animation: myKeyFrame 3s;
+    animation: myKeyFrame 3s;
+}
+
+@-webkit-keyframes myKeyFrame {
+    50% {text-shadow: 100px 20px 20px #fafffd;}
+}
+
+@-o-keyframes myKeyFrame {
+    50% {text-shadow: 10px 20px 30px black;}
+}
+
+.hello{
+	background-color: #c8ff63;
+}
+
+#topicos{
+	margin-bottom:-10px;	
+}
+
+#result h1{
+	box-shadow: 4px 4px #000;	
+}
+
+.machergy-banner {
+    color: #CCC;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+#sobre-nos {
+    margin-top: 20px;
+}
+
+.sobre{
+    text-shadow: 1px 1px #c8ff63;
+}
+
+@media(min-width: 992px) {
+    .machergy-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 100%;
+    }
+    .machergy-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
+
+footer {
+	background-color: #1C1C1C;
+	color: #FAFFFD;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+.glyphicon-home {
+    font-size: 15px;
+}
+
+.glyphicon-triangle-right {
+    font-size: 15px;
+}
+
+.glyphicon-map-marker{
+    animation: pulse 2s infinite;
+	color: #E63946;	
+}
+
+.setaInv {
+    display: none;
+}
+
+.img-circle-person {
+  	border: 5px solid transparent #c8ff63;
+    background-color: #000;
+  	margin-bottom: 20px;
+    width: 255px;
+    height: 255px;
+    opacity: 0.9;
+  }
+
+.img-circle-person:hover {
+	width: 255px;
+	height: 255px;
+    opacity: 1.0;
+    box-shadow: 9px 15px 28px 14px rgba(55,252,65,0.5);
+}
+  
+.img-circle-person:active{
+    width: 250px;
+    height: 250px;
+    background-color: #fafffd;
+}
+
+.img-responsive{
+    margin-bottom: 20px;
+}
+
+.titulo-energia{
+	 color: #010101;
+	 font-weight: bold;
+	 text-align:center;
+	 margin-bottom: 20px;
+}
+
+#paineis-energia{
+    margin-top: 50px;
+}
+
+.textasso{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.textao{
+    font-size: 20px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
+
+.testando{
+    display: none;
+}
+
+.logoMachergy{
+    margin-top: -25px;
+    width: 100px;
+}
